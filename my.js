@@ -27,9 +27,6 @@ loadOrdenes = function (conditions, extra){
   }
   $.get(url, function(html){
 	$('#datagrid').html(html);
-	$("#link-"+conditions).removeClass();
-	$("#link-"+conditions).addClass("ui-btn-active ui-state-persist");
-	alert($("#link-"+conditions).attr('class'));
   });
 }
 
