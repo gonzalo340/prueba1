@@ -1,0 +1,22 @@
+/* Put your custom CSS here */
+div.fields, div.rows {
+  border-bottom: 1px solid black;
+  font-size:12px;
+  padding:3px;  
+}
+div.fields, div.rows {
+  height:50px;
+}
+
+div.rojo {
+  font-weight:bold;
+  background-color:#FC6C6C;
+}
+div.verde {
+  font-weight:bold;
+  background-color:#3AD263;
+}
+div.amarillo {
+  font-weight:bold;
+  background-color:#F7FF7A;
+}
