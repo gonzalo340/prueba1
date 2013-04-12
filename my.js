@@ -27,6 +27,10 @@ loadOrdenes = function (conditions, extra){
   }
   $.get(url, function(html){
 	$('#datagrid').html(html);
+	var auxClass= $('#link-'+conditions).attr("class");
+	if(!auxClass.match(/ui-btn-active ui-state-persist/)){
+	  $('#link-'+conditions).attr("class", auxClass+" ui-btn-active ui-state-persist");
+	}
   });
 }
 
